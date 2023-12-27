@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Analysis Tool</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Business Analysis Natural Language Rule Enforcer and Visualiser</h1>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <label for="natural-language-input">Describe what you want to query/update/visualise in natural
+                    language:</label>
+                <textarea id="natural-language-input" placeholder="Type your natural language query here..."></textarea>
+                <button id="submit-query">Submit Query</button>
+            </section>
+
+            <section class="output-section">
+                <label for="sql-output">Generated SQL Query:</label>
+                <textarea id="sql-output" readonly></textarea>
+            </section>
+
+            <section class="visualization-section">
+                <!-- Placeholder for graphs and charts -->
+                <div id="visualization"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
