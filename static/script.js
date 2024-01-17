@@ -21,5 +21,5 @@ document.getElementById('submit-query').addEventListener('click', function() {
 function updateVisualization(data) {
     var visualizationDiv = document.getElementById('visualization');
     visualizationDiv.innerHTML = '<p>Chart would go here. Data: ' + data + '</p>';
-    // Here you would integrate a chart library and pass the data to it
+    // I plan to integrate a chart library and pass the data to it
 }
