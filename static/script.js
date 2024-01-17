@@ -1,7 +1,7 @@
 document.getElementById('submit-query').addEventListener('click', function() {
     var userInput = document.getElementById('natural-language-input').value;
     
-    fetch('/generate_sql', {  // Changed from '/generate-sql' to '/generate_sql'
+    fetch('/generate_sql', { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
