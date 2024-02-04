@@ -10,7 +10,7 @@ experimental project that leverages Large Language Models (LLMs) to achieve Text
 
 
 ## Dataset Used
-[WikiSQL](https://github.com/salesforce/WikiSQL)): A large semantic parsing dataset consisting of 80,654 natural statement expressions and sql annotations of 24,241 tables. Each query in WikiSQL is limited to the same table and does not contain complex operations such as sorting, grouping The queries in WikiSQL are limited to the same table and do not include complex operations such as sorting, grouping, subqueries, etc.
+[WikiSQL](https://github.com/salesforce/WikiSQL): A large semantic parsing dataset consisting of 80,654 natural statement expressions and sql annotations of 24,241 tables. Each query in WikiSQL is limited to the same table and does not contain complex operations such as sorting, grouping The queries in WikiSQL are limited to the same table and do not include complex operations such as sorting, grouping, subqueries, etc.
 
 | Dataset 	| Split 	| # samples 	|
 |:---:	|:---:	|:---:	|
