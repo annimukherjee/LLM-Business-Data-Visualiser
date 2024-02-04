@@ -19,4 +19,4 @@ experimental project that leverages Large Language Models (LLMs) to achieve Text
 
 ## Model Used
 
-Huggingface: `mrm8488/t5-base-finetuned-wikiSQL`
+🤗: `mrm8488/t5-base-finetuned-wikiSQL`
